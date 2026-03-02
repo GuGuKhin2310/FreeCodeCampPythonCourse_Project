@@ -82,6 +82,7 @@ def main():
             return
         isbn = values[0]
         length = int(values[1])
+
     except ValueError:
         print("Length must be a number.")
         return
