@@ -71,7 +71,6 @@ def calculate_check_digit_13(main_digits_list):
         expected_check_digit = str(result)
     return expected_check_digit
 
-
 def main():
     user_input = input('Enter ISBN and length: ')
     try:
