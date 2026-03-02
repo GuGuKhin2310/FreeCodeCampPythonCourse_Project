@@ -51,7 +51,6 @@ def calculate_check_digit_10(main_digits_list):
         expected_check_digit = str(result)
     return expected_check_digit
 
-
 def calculate_check_digit_13(main_digits_list):
     # Note: You don't have to fully understand the logic in this function.
     digits_sum = 0
